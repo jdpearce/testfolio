@@ -1,0 +1,51 @@
+{
+  "name": "testfolio",
+  "version": "1.0.0",
+  "description": "A test project.",
+  "scripts": {
+    "lint": "tslint './src/**/*.ts'",
+    "test": "karma start --singleRun",
+    "build": "webpack -p --watch",
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "jo@jopearce.co.uk",
+  "license": "ISC",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.11",
+    "angular": "^1.6.7",
+    "core-js": "^2.5.1"
+  },
+  "devDependencies": {
+    "@types/angular": "^1.6.39",
+    "@types/angular-mocks": "^1.5.11",
+    "@types/angular-ui-router": "^1.1.40",
+    "@types/jasmine": "^2.8.2",
+    "@types/webpack": "^3.8.1",
+    "angular-mocks": "^1.6.7",
+    "awesome-typescript-loader": "^3.4.0",
+    "copy-webpack-plugin": "^4.2.3",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "jasmine": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-junit-reporter": "^1.2.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.6",
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-ext-html-webpack-plugin": "^3.4.5",
+    "style-loader": "^0.19.0",
+    "tslint": "^5.8.0",
+    "tslint-defocus": "^2.0.3",
+    "tslint-eslint-rules": "^4.1.1",
+    "typescript": "^2.6.1",
+    "webpack": "^3.8.1"
+  }
+}

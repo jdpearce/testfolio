@@ -1,0 +1,34 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-eslint-rules"
+    ],
+    "rulesDirectory": [
+        "./node_modules/tslint-defocus/dist"
+    ],
+    "jsRules": {
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+        "max-line-length": [true, 160]
+    },
+    "rules": {
+        "member-access": false,
+        "object-literal-sort-keys": false,
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+        "ter-indent": [true, 4, {"SwitchCase": 1}],
+        "defocus": true,
+        "max-line-length": [true, 160],
+        "arrow-parens": [true, "ban-single-arg-parens"],
+        "interface-name": [false],
+        "member-ordering": [false],
+        "no-string-literal": false,
+        "no-unused-expression": [true, "allow-fast-null-checks"]
+    }
+}
