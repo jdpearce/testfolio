@@ -1,7 +1,11 @@
 {
   "name": "testfolio",
   "version": "1.0.0",
-  "description": "A test project.",
+  "description": "An AngularJS starter project in TypeScript, for interviews.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdpearce/testfolio.git"
+  },
   "scripts": {
     "lint": "tslint './src/**/*.ts'",
     "test": "karma start --singleRun",
