@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jdpearce/testfolio.svg?branch=master)](https://travis-ci.org/jdpearce/testfolio)
+
 # Testfolio
 
 An AngularJS starter project in TypeScript, for interviews.
