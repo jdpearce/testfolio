@@ -1,7 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
@@ -41,10 +40,7 @@ module.exports = {
             hash: true,
             filename: 'index.html',
             template: __dirname + '/src/index.html',
-        }),
-        new CopyWebpackPlugin([
-            { from: './src/api', to: './api' }
-        ]),
+        })
     ],
     devtool: 'source-map'
 };

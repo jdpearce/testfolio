@@ -1,5 +1,4 @@
 export class WelcomeController {
-    
 }
 
 export const WelcomeComponent: ng.IComponentOptions = {

@@ -6,7 +6,7 @@ export function AppConfig(
     $urlRouterProvider: UrlRouterProvider
 ) {
     $locationProvider.html5Mode(true);
-    
+
     $urlRouterProvider
         .otherwise('/welcome');
 
@@ -15,5 +15,5 @@ export function AppConfig(
             url: '/welcome',
             component: 'appWelcome'
         });
-};
+}
 AppConfig.$inject = ['$locationProvider', '$stateProvider', '$urlRouterProvider'];

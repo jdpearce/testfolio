@@ -1,0 +1,36 @@
+[{
+    "assetId": "CASH",
+    "assetName": "Cash",
+    "quantity": 10000,
+    "price": 1,
+    "currency": "GBP",
+    "dailyGain": -0.0002
+}, {
+    "assetId": "TW",
+    "assetName": "Taylor Wimpey plc",
+    "quantity": 50,
+    "price": 193.53,
+    "currency": "GBP",
+    "dailyGain": 0.0073
+}, {
+    "assetId": "BARC",
+    "assetName": "Barclays PLC",
+    "quantity": 100,
+    "price": 186.45,
+    "currency": "GBP",
+    "dailyGain": -0.0053
+}, {
+    "assetId": "RBS",
+    "assetName": "Royal Bank of Scotland Group plc",
+    "quantity": 300,
+    "price": 268.70,
+    "currency": "GBP",
+    "dailyGain": 0.0113
+}, {
+    "assetId": "TSCO",
+    "assetName": "Tesco PLC",
+    "quantity": 250,
+    "price": 195.00,
+    "currency": "GBP",
+    "dailyGain": 0.0215
+}]

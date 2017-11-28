@@ -1,7 +1,7 @@
 export class ShellController {
     title: string = 'Not set';
 
-    $onInit() : void {
+    $onInit(): void {
         this.title = 'OnInit has been called.';
     }
 }
@@ -9,4 +9,4 @@ export class ShellController {
 export const ShellComponent: ng.IComponentOptions = {
     controller: ShellController,
     template: require('./shell.component.html')
-}
+};

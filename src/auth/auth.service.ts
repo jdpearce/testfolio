@@ -1,10 +1,11 @@
-import { Group } from './group'
+import { User } from './user';
 
 export class AuthService {
+
     static readonly $inject: string[] = ['$http'];
     constructor(private $http: ng.IHttpService) {}
 
-    getGroups(): ng.IHttpPromise<Group[]> {
-        return this.$http.get<Group[]>('/api/groups.json');
+    getCurrentUser(): ng.IHttpPromise<User> {
+        return this.$http.get<User>('/api/user');
     }
 }

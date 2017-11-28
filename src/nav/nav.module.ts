@@ -1,5 +1,5 @@
+import uiRouter from '@uirouter/angularjs';
 import * as angular from 'angular';
-import uiRouter from '@uirouter/angularjs'
 
 import { NavComponent } from './nav.component';
 

@@ -1,7 +1,7 @@
+import uiRouter from '@uirouter/angularjs';
 import * as angular from 'angular';
-import uiRouter from '@uirouter/angularjs'
 
-import { NavModule } from './nav'
+import { NavModule } from './nav';
 import { ShellModule } from './shell';
 import { WelcomeModule } from './welcome';
 

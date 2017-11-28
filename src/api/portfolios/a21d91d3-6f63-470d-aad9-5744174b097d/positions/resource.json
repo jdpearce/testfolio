@@ -1,0 +1,36 @@
+[{
+    "assetId": "CASH",
+    "assetName": "Cash",
+    "quantity": 10000,
+    "price": 1,
+    "currency": "GBP",
+    "dailyGain": -0.0002
+}, {
+    "assetId": "GOOG",
+    "assetName": "Alphabet Inc.",
+    "quantity": 1000,
+    "price": 1056.86,
+    "currency": "GBP",
+    "dailyGain": 0.0256
+}, {
+    "assetId": "VOD",
+    "assetName": "Vodafone Group plc",
+    "quantity": 350,
+    "price": 225.01,
+    "currency": "GBP",
+    "dailyGain": 0.0041
+}, {
+    "assetId": "TW",
+    "assetName": "Taylor Wimpey plc",
+    "quantity": 100,
+    "price": 193.53,
+    "currency": "GBP",
+    "dailyGain": 0.0073
+}, {
+    "assetId": "TSCO",
+    "assetName": "Tesco PLC",
+    "quantity": 250,
+    "price": 195.00,
+    "currency": "GBP",
+    "dailyGain": 0.0215
+}]
